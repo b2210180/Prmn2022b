@@ -12,6 +12,16 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
           int age = input.nextInt();
+
+        if(age < 20 && 0 >= age) {
+          System.out.println("I am " + age + " years old so I cannot drink liquor.");
+        }
+        else if(age < 0){
+          System.out.println("Error");
+        }
+        else{
+          System.out.println("I am " + age +" years old so I can drink liquor.");
+        }
     }
 }
 
