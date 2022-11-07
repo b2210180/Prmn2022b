@@ -2,6 +2,8 @@ package lecture02;
 
 public class Car {
     int fuel;
+    Tire tires[];
+    Engine engine;
 
     void run() {
         if (fuel == 0) {
