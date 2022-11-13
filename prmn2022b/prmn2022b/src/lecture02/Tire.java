@@ -1,6 +1,8 @@
 package lecture02;
 
 public class Tire {
-    int size = 65;
-
+    int size;
+            Tire(int size){
+                this.size = size;
+            }
 }
